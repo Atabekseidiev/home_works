@@ -5,4 +5,9 @@ const userSalaries= {
 }
 console.log(userSalaries.Ellie , userSalaries.Sophia);
 
-const a = 1
+const obj = {
+    a: '5',
+    b: '6',
+    c: '10'
+}
+console.log(obj.a + obj.b + obj.c);
