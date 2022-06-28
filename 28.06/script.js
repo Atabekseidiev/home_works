@@ -3,11 +3,11 @@
  после чего процесс завершится.
  При решении данной задачи нельзя вызывать setTimeout. ***********/
 
-let arr = 0;
+let time = 0;
 let showMessage = setInterval(() => {
     alert('hello World');
-    arr += 1;
-if (arr === 5) {
+    time += 1;
+if (time === 5) {
     alert('Done');
     clearInterval(showMessage);
 }
