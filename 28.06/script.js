@@ -3,12 +3,17 @@
  после чего процесс завершится.
  При решении данной задачи нельзя вызывать setTimeout. ***********/
 
-
-const array = () => {
-    console.log( “Hello World” );
+let arr = 0;
+let showMessage = setInterval(() => {
+    alert('hello World');
+    arr += 1;
+if (arr === 5) {
+    alert('Done');
+    clearInterval(showMessage);
 }
-const intervalID = (id) => {
-    clearInterval(id);
-}
+}, 1000 );
 
-const stopInterval = intervalID( array, 1000);
+/*********  Напишите функцию, который будет выводить сообщение “Hello World” раз в секунду,
+ но всего 5 раз. После 5 итераций скрипт должен вывести сообщение “Done”,
+ после чего процесс завершится.
+ При решении данной задачи нельзя вызывать setTimeout. ***********/
