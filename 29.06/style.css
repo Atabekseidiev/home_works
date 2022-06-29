@@ -1,0 +1,52 @@
+.product_card{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0px #0000004f;
+    box-sizing: border-box;
+    padding: 50px 100px;
+    align-items: center;
+}
+.img{
+    width: 300px;
+}
+.img1{
+    width: 70px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.product_trnsform{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product_name{
+    font-size:20px;
+    font-family: 'Jura', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.product_description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 13px;
+    font-family: 'Jura', sans-serif;
+
+}
+.korzinca-btn{
+    width: 150px;
+    height:50px;
+    background-color: white;
+    box-shadow:0px 0px 10px 0px #0000004f;
+    border: none;
+    margin-top: 40px;
+}
