@@ -14,3 +14,19 @@ const link1 = () => {
 }
 const link = document.querySelector('#link');
 link.onmouseenter = link1;
+
+
+/********************3) Напишите функцию, которая объединяет несколько строк и возвращает их.
+ Используйте глобальный массив arguments.*********************/
+
+function uniteElemrnts() {
+    let str = '';
+    for(let i = 0; i < arguments.length; i++){
+        str += `${arguments[i]} `;
+    }
+    return str;
+
+}
+const result = uniteElemrnts('ghdbtn', 'fvrtr', 'grtrgtrt')
+console.log(result);
+
