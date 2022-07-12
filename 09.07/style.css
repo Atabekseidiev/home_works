@@ -1,8 +1,6 @@
 .notification{
     height: 50px;
-    width: 200px;
-    color: white;
-    background-color: blue;
+    width: 300px;
     font-size: 15px;
     text-align: center;
     display: flex;
@@ -11,4 +9,70 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    color: #055160;
+    background-color: #cff4fc;
+}
+
+.info_notification{
+    color: #055160;
+    background-color: #cff4fc;
+}
+
+.error_notification{
+    color: #842029;
+    background-color: #f8d7da;
+}
+
+.success.notification{
+    color: #0f5132;
+    background-color: #d1e7dd;
+}
+
+.container2{
+    width:400px;
+    height: 200px;
+    margin: 0 auto;
+    top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.timer_block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 190px;
+    background-color: blue;
+    color: #d1e7dd;
+    font-size: 50px;
+}
+/*.timer_block2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    height: 150px;*/
+}
+/*.timer{
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1e7dd;
+    color: blue;
+
+}*/
+.btn1{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: #d1e7dd;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
