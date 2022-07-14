@@ -53,25 +53,8 @@ smile1.addEventListener('click',user_verification);
 const startTimer = document.querySelector('#btn1');
 const stopTimer = document.querySelector('#btn2');
 
-/*et timer = document.querySelector('second');
 
-const timerID = () => {
-    let i = 0;
-    if (i > 0){
-        i++
-    }
-    setInterval(timerID, 1000);
-}
 
-startTimer.addEventListener('dblclick', timerID);
-*/
 
-const timerID = () =>{
-    const timer = document.createElement('div');
-    timer.classList.add(`btn1`);
-    setInterval(() => timer.remove(), 1000);
-}
-
-startTimer.addEventListener('click', timerID())
 
 
