@@ -1,0 +1,417 @@
+ body{
+	background: black;
+	overflow: hidden;
+
+}
+.content{
+
+	width: 640px;
+	height: 264px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+.container{
+	display: flex;
+    flex-direction: column;
+}
+
+.h2{
+	text-align: center;
+	font-family: 'Sora', sans-serif;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.p1{
+	font-family: 'Sora', sans-serif;
+	padding-bottom: 10px;
+	padding-top: 9px;
+	margin: 0;
+	font-size: 14px;
+
+}
+
+.form-namber{
+	width: 608px;
+	height: 48px;
+	border: 1px solid grey;
+	margin: 0 auto;
+	opacity: 25%;
+	border-radius: 4px;
+	display: flex;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+
+input.namber{
+	display: flex;
+	width: 198px;
+	border-style: none;
+	font-size: 16px;
+	font-family: 'Sora', sans-serif;
+	padding-left: 32px;
+
+}
+
+.dalee{
+	width: 384px;
+	height: 48px;
+	font-size: 20px;	
+	background: #232529;
+	padding: 12px 145px ;
+	margin: 0 auto;
+	color: white;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+			/*container2*/
+
+
+.container2{
+	width: 640px;
+	height: 264px;
+	background-color: white;
+	margin: 50px auto;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 200px auto;
+
+
+}
+
+.p2{
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Sora', sans-serif;
+	color: #A9A9A9;
+	font-size: 14px;
+}
+
+
+.form-three{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: ;
+}
+
+.three{
+	width: 48px;
+	height: 48px;
+	font-size: 24px;
+	border-radius: 12px;
+	text-align: center;
+	margin-right: 8px;
+}
+/*
+		container-questionnaire*/
+
+
+.uestionnaire-for-corporate-clients{
+	width: 616px;
+
+
+}
+
+.container-questionnaire{
+	width: 664px; 
+	Height: 576px;
+	background-color: white;
+	margin: 70px auto;
+
+}
+
+.h2-1{
+	font-size: 16px;
+	font-family: 'Sora', sans-serif;
+	margin: 0 auto;
+	padding-left: 28px;
+	padding-top: 40px;
+	margin-bottom: 24px;
+}
+
+.p3{
+	font-size: 14px;
+	font-family: 'Sora', sans-serif;
+	padding-top: 8px;
+	margin: 0 28px;
+
+}
+
+.FIO{
+	width: 616px;
+	height: 48px;
+	text-align: center;
+	margin-top: 8px;
+    margin-left: 28px;
+	display: flex;
+	color: #DADADA;
+	margin-bottom: 16px;
+}
+
+.surname{
+	width: 200px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-right: 8px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+.name{
+	width: 200px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-right: 8px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+.patronymic{
+	width: 200px;
+	height: 48px;
+	margin: 0 auto;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+
+.Passport-data{
+	height: 48px;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: 8px;
+    margin-left: 28px;;
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.Date-of-Birth{
+	width: 200px;
+	height: 48px;
+	font-size: 14px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+
+
+}
+
+.Place-of-residence{
+	width: 408px;
+	height: 48px;
+	font-size: 14px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-left: 8px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+.Passport-data2{
+	box-sizing: border-box;
+}
+
+
+.Actual-residence{
+	width: 408px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-right: 8px;
+	margin-bottom: 40px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+
+
+}
+
+.dalee2{
+	width: 384px;
+	height: 48px;
+	font-size: 20px;	
+	background: #232529;
+	padding: 12px 145px ;
+	margin: 0 auto;
+	color: white;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+
+		/*list4*/
+
+.container3{
+	width: 664px;
+	height: 604px;
+	background-color: white;
+	margin: 60px auto;
+
+
+}
+.h1-3{
+	font-size: 16px;
+	font-family: 'Sora', sans-serif;
+	margin: 0 auto;
+	padding-left: 24px;
+	padding-top: 40px;
+	margin-bottom: 24px;
+}
+
+.dannye{
+	width: 408px;
+	height: 48px;
+	margin-left: 24px;
+	margin-right: 8px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border: 0.5px solid #AEAEAE;
+	padding-left: 15px;
+	color: #DADADA;
+	opacity: 50%;
+
+}
+
+.dolgnost{
+	width: 200px;
+	height: 48px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border: 0.5px solid #AEAEAE;
+	padding-left: 15px;
+	color: #DADADA;
+	opacity: 50%;
+}
+
+.ZP{
+	width: 304px;
+	height: 48px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border: 0.5px solid #AEAEAE;
+	padding-left: 15px;
+	color: #DADADA;
+	opacity: 50%;
+	margin-right: 8px;
+
+}
+
+.ZP2{
+	width: 304px;
+	height: 48px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border: 0.5px solid #AEAEAE;
+	padding-left: 15px;
+	color: #DADADA;
+	opacity: 50%;
+
+}
+
+
+.two{
+	margin-top: 16px;
+	margin-left: 24px;
+}
+
+.Pokupka-tel{
+	width: 616px;
+	height: 48px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border: 0.5px solid #AEAEAE;
+	padding-left: 15px;
+	color: #DADADA;
+	opacity: 50%;
+}
+
+.h1-4{
+	font-size: 16px;
+	font-family: 'Sora', sans-serif;
+	margin: 0 auto;
+	padding-left: 24px;
+	padding-top: 40px;
+	margin-bottom: 8px;
+}
+
+.three{
+	margin-left: 24px;
+}
+
+
+.xarakteristika2{
+	width: 616px;
+	height: 48px;
+	text-align: center;
+	margin-top: 16px;
+    margin-left: 24px;
+	display: flex;
+	color: #DADADA;
+	margin-bottom: 16px;
+}
+
+.stoimost{
+	width: 200px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-right: 8px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+.kol{
+	width: 200px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-right: 8px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+.summa{
+	width: 200px;
+	height: 48px;
+	margin: 0 auto;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
