@@ -297,7 +297,6 @@ input.namber{
 	box-sizing: border-box;
 	border: 0.5px solid #AEAEAE;
 	padding-left: 15px;
-	color: #DADADA;
 	opacity: 50%;
 
 }
@@ -309,7 +308,6 @@ input.namber{
 	box-sizing: border-box;
 	border: 0.5px solid #AEAEAE;
 	padding-left: 15px;
-	color: #DADADA;
 	opacity: 50%;
 }
 
@@ -320,7 +318,6 @@ input.namber{
 	box-sizing: border-box;
 	border: 0.5px solid #AEAEAE;
 	padding-left: 15px;
-	color: #DADADA;
 	opacity: 50%;
 	margin-right: 8px;
 
@@ -333,7 +330,6 @@ input.namber{
 	box-sizing: border-box;
 	border: 0.5px solid #AEAEAE;
 	padding-left: 15px;
-	color: #DADADA;
 	opacity: 50%;
 
 }
@@ -351,7 +347,6 @@ input.namber{
 	box-sizing: border-box;
 	border: 0.5px solid #AEAEAE;
 	padding-left: 15px;
-	color: #DADADA;
 	opacity: 50%;
 }
 
@@ -366,6 +361,13 @@ input.namber{
 
 .three{
 	margin-left: 24px;
+	width: 616px;
+	height: 48px;
+	text-align: center;
+	margin-top: 16px;
+	margin-left: 24px;
+	display: flex;
+	margin-bottom: 16px;
 }
 
 
@@ -376,7 +378,6 @@ input.namber{
 	margin-top: 16px;
     margin-left: 24px;
 	display: flex;
-	color: #DADADA;
 	margin-bottom: 16px;
 }
 
