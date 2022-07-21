@@ -119,10 +119,9 @@ input.namber{
 		container-questionnaire*/
 
 
-.uestionnaire-for-corporate-clients{
+.uestionnaire_for_corporate_clients{
 	width: 616px;
-
-
+	display: flex;
 }
 
 .container-questionnaire{
@@ -150,7 +149,7 @@ input.namber{
 
 }
 
-.FIO{
+.personal_data{
 	width: 616px;
 	height: 48px;
 	text-align: center;
@@ -161,7 +160,7 @@ input.namber{
 	margin-bottom: 16px;
 }
 
-.surname{
+.data{
 	width: 200px;
 	height: 48px;
 	border-radius: 8px;
@@ -173,32 +172,7 @@ input.namber{
 	border: 0.5px solid #AEAEAE;
 }
 
-.name{
-	width: 200px;
-	height: 48px;
-	border-radius: 8px;
-	font-size: 14px;
-	box-sizing: border-box;
-	padding-left: 10px;
-	margin-right: 8px;
-	Opacity: 50%;
-	border: 0.5px solid #AEAEAE;
-}
-
-.patronymic{
-	width: 200px;
-	height: 48px;
-	margin: 0 auto;
-	border-radius: 8px;
-	font-size: 14px;
-	box-sizing: border-box;
-	padding-left: 10px;
-	Opacity: 50%;
-	border: 0.5px solid #AEAEAE;
-}
-
-
-.Passport-data{
+.passport_data{
 	height: 48px;
 	text-align: center;
 	box-sizing: border-box;
@@ -208,7 +182,7 @@ input.namber{
 	margin-bottom: 16px;
 }
 
-.Date-of-Birth{
+.Date_of_Birth{
 	width: 200px;
 	height: 48px;
 	font-size: 14px;
@@ -221,7 +195,7 @@ input.namber{
 
 }
 
-.Place-of-residence{
+.Place_of_residence{
 	width: 408px;
 	height: 48px;
 	font-size: 14px;
@@ -233,12 +207,12 @@ input.namber{
 	border: 0.5px solid #AEAEAE;
 }
 
-.Passport-data2{
+.Passport_data2{
 	box-sizing: border-box;
 }
 
 
-.Actual-residence{
+.actual_residence{
 	width: 408px;
 	height: 48px;
 	border-radius: 8px;
@@ -288,7 +262,7 @@ input.namber{
 	margin-bottom: 24px;
 }
 
-.dannye{
+.company_name{
 	width: 408px;
 	height: 48px;
 	margin-left: 24px;
@@ -301,7 +275,8 @@ input.namber{
 
 }
 
-.dolgnost{
+
+.job_title{
 	width: 200px;
 	height: 48px;
 	border-radius: 8px;
@@ -340,7 +315,16 @@ input.namber{
 	margin-left: 24px;
 }
 
-.Pokupka-tel{
+.place_of_receipt{
+	width: 616px;
+	height: 48px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	border: 0.5px solid #AEAEAE;
+	padding-left: 15px;
+	opacity: 50%;
+}
+.name_of_product{
 	width: 616px;
 	height: 48px;
 	border-radius: 8px;
@@ -371,7 +355,7 @@ input.namber{
 }
 
 
-.xarakteristika2{
+.description2{
 	width: 616px;
 	height: 48px;
 	text-align: center;
@@ -381,7 +365,7 @@ input.namber{
 	margin-bottom: 16px;
 }
 
-.stoimost{
+ .price{
 	width: 200px;
 	height: 48px;
 	border-radius: 8px;
@@ -393,7 +377,7 @@ input.namber{
 	border: 0.5px solid #AEAEAE;
 }
 
-.kol{
+.Credit_term{
 	width: 200px;
 	height: 48px;
 	border-radius: 8px;
@@ -405,7 +389,19 @@ input.namber{
 	border: 0.5px solid #AEAEAE;
 }
 
-.summa{
+ .quantity{
+	width: 200px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	margin-right: 8px;
+	Opacity: 50%;
+	border: 0.5px solid #AEAEAE;
+}
+
+.sum{
 	width: 200px;
 	height: 48px;
 	margin: 0 auto;
@@ -416,3 +412,4 @@ input.namber{
 	Opacity: 50%;
 	border: 0.5px solid #AEAEAE;
 }
+
