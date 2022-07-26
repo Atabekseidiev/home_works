@@ -121,7 +121,7 @@ input.namber{
 
 .uestionnaire_for_corporate_clients{
 	width: 616px;
-	display: flex;
+
 }
 
 .container-questionnaire{
@@ -241,6 +241,9 @@ input.namber{
 	justify-content: center;
 	margin-top: 40px;
 }
+ .empty-field{
+	 border: 2px solid red;
+ }
 
 
 		/*list4*/

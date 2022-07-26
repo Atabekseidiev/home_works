@@ -16,9 +16,9 @@
 			<h2 class="h2-1">Анкета  для корпоративных клиентов</h2>
 			<p class="p3">Личные данные</p>
 			<div class="personal_data">>
-				<input id="surname" class="data" type="text" placeholder="Фамилия">
-				<input id="name" class="data" type="text" placeholder="Имя">
-				<input id="patronymic" class="data" type="text" placeholder="Отчество ">
+				<input id="surname" class="data" type="text" data-required placeholder="Фамилия">
+				<input id="name" class="data" type="text" data-required placeholder="Имя">
+				<input id="patronymic" class="data" type="text" data-required placeholder="Отчество ">
 			</div>
 			<p class="p3">Паспортные данные</p>
 			<div class="passport_data">
@@ -33,15 +33,16 @@
 			</div>
 			<div class="personal_data">
 				<input id="phone_number" class="data" type="text" placeholder="Контактный номер">
-				<input id="email" class="data type="text" placeholder="Электронный адрес">
+				<input id="email" class='data' type="text" placeholder="Электронный адрес">
 				<input id="bank_name" class="data" type="text" placeholder="Наименование банка">
 			</div>
 			<div class="personal_data">
 				<input id="actual_residence" class="actual_residence" type="text" placeholder="Фактическое место проживания">
 			</div>
-			<button type="submit" id="further" class="dalee2">Далее</button>
+			<button type="submit" class="dalee2">Далее</button>
 		</form>
 	</div>
-	
+
+	<script src="script1.js" ></script>
 </body>
 </html>
